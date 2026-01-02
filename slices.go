@@ -25,7 +25,9 @@ func main() {
 	fmt.Println(stringArray[:2])
 
 	if slices.Equal(nums, []int{1}) {
-		fmt.Println("They are equal");
+		fmt.Println("They are equal")
+	} else {
+		fmt.Println("Slices are not equal")
 	}
 
 }

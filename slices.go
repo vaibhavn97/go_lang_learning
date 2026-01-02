@@ -21,9 +21,4 @@ func main() {
 
 	fmt.Println(stringArray[:2])
 
-
-
-
-
-
 }
